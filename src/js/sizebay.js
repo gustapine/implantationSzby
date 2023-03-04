@@ -6,7 +6,7 @@ function findEven (){
         if(array[i] % 2==0)
        even.push(array[i])
     }
-    alert(even);
+    alert("Os números pares são: "+even);
   
 }
 
@@ -18,5 +18,5 @@ function findOdd (){
         if(array[i] % 2==1)
        odd.push(array[i])
     }
-    alert(odd);
+    alert("Os números ímpares são: "+odd);
 }
