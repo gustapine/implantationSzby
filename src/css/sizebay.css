@@ -1,0 +1,98 @@
+
+            #szb_fitting_room.icon > span:before,
+            #szb_size_chart.icon > span:before {
+                font-family: untitled-font-3;
+            }
+
+            .sizebay-container {
+                width: 58%;
+                margin-top: 1%;
+                margin-bottom: 1%;
+
+            }
+
+            #recomendation-size {
+                width: 21%;
+                display: flex;
+                justify-content: center;
+                font-size: 13px;
+                border-left: 1px solid black;
+                padding-left: 5px;
+            }
+
+            div#recomendation-size > strong {
+                display: contents;
+            }
+
+            #szb_fitting_room,
+            #szb_size_chart {
+                min-width: unset !important;
+                max-width: unset !important;
+                width: 49% !important;
+
+                
+            }
+
+            .sizebay-container #szb_fitting_room.button_plugin+#szb_size_chart.button_plugin,
+            .sizebay-container #szb_size_chart.button_plugin+#szb_fitting_room.button_plugin {
+                margin-left: 2%;
+                
+            }
+
+            
+
+            .szb-vrf-btns{
+                display: flex;
+                flex-direction: row;
+                
+            }
+
+            
+
+            #szb_bt_virtualfittingroom #szb_fitting_room,
+            #szb_bt_virtualfittingroom #szb_size_chart {
+                font-size: 13px;
+                text-transform: uppercase;
+            }
+
+            
+
+            .sizebay-container.big_button #szb_fitting_room.icon > span:before,
+            .sizebay-container.big_button #szb_size_chart.icon > span:before {
+                left: -22px;
+                top: -3px;
+                color: #6899f8;
+                font-weight: 600;
+                background-image: linear-gradient(to left, #6899f8 0%, #8975d9 50%, #6899f8 100%);
+                -webkit-background-clip: text;
+                -moz-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                -moz-text-fill-color: transparent;
+                height: 20px;
+                width: 20px;
+            }
+
+            .icon-clothes-hanger-1{
+                
+            }
+
+            .sizebay-container.big_button #szb_size_chart.icon > span:before {
+                top: -3px;
+            }
+
+            @media screen and (max-width: 1366px) {
+                .sizebay-container {
+                    width: 65%;
+                }
+            }
+
+            @media screen and (max-width: 768px) {
+                .sizebay-container {
+                    width: 100%;
+                }
+
+                .sizebay-container.big_button #szb_fitting_room.button_plugin.icon > span,
+                .sizebay-container.big_button #szb_size_chart.button_plugin.icon > span {
+                    font-size: 13px;
+                }
+            }
